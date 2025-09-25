@@ -6,7 +6,7 @@ from models.market import MarketPrice, MarketPriceCreate, MarketPriceUpdate
 router = APIRouter()
 
 # MongoDB connection
-from server import db
+from database import db
 
 @router.get("/market", response_model=List[MarketPrice])
 async def get_market_prices(
