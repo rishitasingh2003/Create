@@ -6,7 +6,7 @@ from datetime import datetime
 router = APIRouter()
 
 # MongoDB connection
-from server import db
+from database import db
 
 @router.get("/crops", response_model=List[Crop])
 async def get_crops(
