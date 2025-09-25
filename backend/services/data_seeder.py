@@ -146,7 +146,7 @@ INITIAL_MARKET_DATA = [
         "price": 2150.0,
         "unit": "per quintal",
         "change": "+50",
-        "date": date.today(),
+        "date": "2024-01-15",
         "created_at": datetime.utcnow(),
         "updated_at": datetime.utcnow()
     },
@@ -160,7 +160,7 @@ INITIAL_MARKET_DATA = [
         "price": 3200.0,
         "unit": "per quintal",
         "change": "-25",
-        "date": date.today(),
+        "date": "2024-01-15",
         "created_at": datetime.utcnow(),
         "updated_at": datetime.utcnow()
     },
@@ -174,7 +174,7 @@ INITIAL_MARKET_DATA = [
         "price": 1850.0,
         "unit": "per quintal",
         "change": "+75",
-        "date": date.today(),
+        "date": "2024-01-15",
         "created_at": datetime.utcnow(),
         "updated_at": datetime.utcnow()
     }
