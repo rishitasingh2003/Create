@@ -8,7 +8,7 @@ from datetime import datetime
 router = APIRouter()
 
 # MongoDB connection
-from server import db
+from database import db
 
 @router.get("/schemes", response_model=List[Scheme])
 async def get_schemes(
