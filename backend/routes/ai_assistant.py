@@ -6,7 +6,7 @@ from datetime import datetime
 router = APIRouter()
 
 # MongoDB connection
-from server import db
+from database import db
 
 @router.get("/ai/questions", response_model=List[QAPair])
 async def get_qa_pairs(category: Optional[str] = Query(None)):
